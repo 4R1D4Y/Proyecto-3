@@ -26,3 +26,62 @@ Proyecto realizado como práctica educativa del ciclo **2º CFGS Desarrollo de A
 - Certificados SSL  
 
 ---
+
+## ⚙️ Instrucciones de instalación y ejecución
+
+### 1️⃣ Instalación del servicio FTP
+
+1. Administrar → Agregar roles y características  
+2. Instalación basada en roles o características  
+3. Seleccionar el servidor  
+4. Marcar:
+   - Servidor Web (IIS)
+   - Servidor FTP
+   - Extensibilidad de FTP
+5. Instalar
+
+---
+
+### 2️⃣ Configuración del servidor FTP
+
+1. Abrir Administrador de IIS  
+2. Sitios → Agregar sitio FTP  
+3. Indicar nombre y ruta del sitio  
+4. Configurar IP y puerto  
+5. Definir autenticación y permisos  
+
+---
+
+### 3️⃣ Creación de usuario FTP
+
+1. Herramientas → Administración de equipos  
+2. Usuarios y grupos locales → Usuarios  
+3. Crear usuario con contraseña  
+4. Asignar permisos de escritura a la carpeta FTP  
+
+---
+
+### 4️⃣ Configuración del Firewall
+
+1. Firewall de Windows Defender → Configuración avanzada  
+2. Crear regla de entrada por puerto  
+3. Permitir conexión  
+4. Aplicar a todos los perfiles  
+
+Comprobación del puerto:
+netstat - | find "<puerto>"
+
+---
+
+### 5️⃣ Comprobación del funcionamiento
+
+**Explorador de Windows**
+ftp://usuario@ip_servidor:puerto
+
+**FileZilla**
+- IP del servidor
+- Usuario
+- Contraseña
+- Puerto
+
+---

@@ -85,3 +85,12 @@ ftp://usuario@ip_servidor:puerto
 - Puerto
 
 ---
+
+### 6️⃣ Configuración de FTPS
+
+1. IIS → Sitio FTP → Configuración SSL de FTP  
+2. Seleccionar certificado SSL  
+3. Permitir conexiones SSL  
+4. Añadir enlace FTP puerto 990  
+
+---

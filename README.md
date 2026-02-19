@@ -38,6 +38,7 @@ Proyecto realizado como práctica educativa del ciclo **2º CFGS Desarrollo de A
    - Servidor Web (IIS)
    - Servidor FTP
    - Extensibilidad de FTP
+   - ![alt text](images/image-1.png)
 5. Instalar
 
 ---
@@ -77,12 +78,15 @@ netstat - | find "<puerto>"
 
 **Explorador de Windows**
 ftp://usuario@ip_servidor:puerto
+![alt text](images/image-2.png)
+![alt text](images/image-3.png)
 
 **FileZilla**
 - IP del servidor
 - Usuario
 - Contraseña
 - Puerto
+![alt text](images/image-4.png)
 
 ---
 
